@@ -14,7 +14,7 @@ import Footer from '@/components/footer'
 
 export default function Home() {
   return (
-    <main className="bg-[#080810] text-[#F8FAFC]">
+    <main className="relative z-[1] bg-[#080810] text-[#F8FAFC]">
       <Navbar />
       <Hero />
       <Services />
